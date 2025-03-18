@@ -3,53 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tải Ứng Dụng Medsikick</title>
+    <title>Medsiki - Tải Ứng Dụng</title>
     <style>
       body {
         font-family: Arial, sans-serif;
         text-align: center;
-        background-color: #ffcccb; /* Nền màu hồng nhạt */
-        padding: 50px;
+        background-color: #fce4ec;
+        padding: 0;
+        margin: 0;
       }
-      .container {
-        background: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        display: inline-block;
-      }
-      h1 {
-        color: #333;
+      .hero {
+        background: url("image.png") no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       .download-btn {
         display: inline-block;
-        background-color: #ff69b4; /* Nút màu hồng nổi bật */
+        background-color: #d32f2f;
         color: white;
         padding: 15px 30px;
         text-decoration: none;
         border-radius: 5px;
         font-size: 18px;
-        margin-top: 20px;
-        transition: background-color 0.3s;
+        font-weight: bold;
+        position: absolute;
+        bottom: 50px;
       }
       .download-btn:hover {
-        background-color: #ff1493;
+        background-color: #b71c1c;
       }
     </style>
   </head>
   <body>
-    <div class="container">
-      <h1>Chào mừng đến với Medsiki!</h1>
-      <p>Tải xuống ứng dụng của chúng tôi ngay bây giờ.</p>
+    <div class="hero">
       <a
-        id="download-link"
         href="https://github.com/haian041003/Medsiki-Landing-Page/releases/download/v1.1/app-release.apk"
         class="download-btn"
-        target="_blank"
-        rel="noopener noreferrer"
+        >Tải về APK</a
       >
-        Tải về APK
-      </a>
     </div>
   </body>
 </html>
